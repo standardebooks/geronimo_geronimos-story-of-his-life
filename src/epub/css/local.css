@@ -26,10 +26,6 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
-	text-indent: 0;
-}
-
 figure.full-page{
 	break-after: page;
 	break-before: page;
@@ -91,8 +87,7 @@ section > header{
 	font-style: italic;
 }
 
-#introduction blockquote:first-of-type > header p:first-of-type + p,
-#introduction blockquote:first-of-type > header i{
+#introduction blockquote:first-of-type > header p:first-of-type + p{
 	font-variant: normal;
 }
 
