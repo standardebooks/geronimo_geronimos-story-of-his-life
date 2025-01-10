@@ -79,15 +79,12 @@ section > header{
 }
 
 #introduction blockquote:first-of-type > header p + p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
 #introduction blockquote:first-of-type > header p:first-of-type + p{
 	font-style: italic;
-}
-
-#introduction blockquote:first-of-type > header p:first-of-type + p{
 	font-variant: normal;
 }
 
