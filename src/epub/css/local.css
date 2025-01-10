@@ -50,9 +50,28 @@ figure.full-page{
 	}
 }
 
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header p:first-child{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:letter"] header [epub|type~="se:letter.dateline"] + p{
+	margin-bottom: 1em;
+	text-align: initial;
+}
+
+section > header{
+	font-variant: small-caps;
+	margin: 3em 0 1em 0;
+}
+
 #introduction blockquote header{
 	font-variant: small-caps;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 #introduction blockquote header p + p{
@@ -75,4 +94,13 @@ figure.full-page{
 #introduction blockquote:first-of-type > header p:first-of-type + p,
 #introduction blockquote:first-of-type > header i{
 	font-variant: normal;
+}
+
+#chapter-18 > blockquote:last-of-type header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+#chapter-18 > blockquote:last-of-type blockquote{
+	font-variant: small-caps;
 }
