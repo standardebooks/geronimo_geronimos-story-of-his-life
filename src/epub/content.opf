@@ -62,7 +62,7 @@
 		<dc:creator id="author">Geronimo</dc:creator>
 		<meta property="file-as" refines="#author">Geronimo</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Geronimo</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n50016500</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50016500</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor">S. M. Barrett</dc:contributor>
 		<meta property="file-as" refines="#editor">Barrett, S. M.</meta>
@@ -78,7 +78,7 @@
 		<dc:contributor id="artist">Elbridge Ayer Burbank</dc:contributor>
 		<meta property="file-as" refines="#artist">Burbank, Elbridge Ayer</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Elbridge_Ayer_Burbank</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/n92003114</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n92003114</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Free Elf</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Free Elf</meta>
