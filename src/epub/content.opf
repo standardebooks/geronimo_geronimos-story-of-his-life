@@ -64,6 +64,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Geronimo</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50016500</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="editor">S. M. Barrett</dc:contributor>
 		<meta property="file-as" refines="#editor">Barrett, S. M.</meta>
 		<meta property="se:name.person.full-name" refines="#editor">Stephen Melvil Barrett</meta>
